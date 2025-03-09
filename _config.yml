@@ -1,0 +1,16 @@
+title: My Projects
+description: Projects and Ideas
+baseurl: "" # Leave empty if your site is at username.github.io
+url: "https://joselitorapisora.github.io" # Replace with your URL
+theme: minima # Default theme, or choose another
+plugins:
+  - jekyll-feed # Adds an RSS feed
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
