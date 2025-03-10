@@ -1,16 +1,21 @@
-title: My Projects
-description: Projects and Ideas
-baseurl: "" # Leave empty if your site is at username.github.io
-url: "https://joselitorapisora.github.io" # Replace with your URL
-theme: minima # Default theme, or choose another
+title: Joselito Rapisora
+author:
+  name: "Joselito Rapisora"
+  email: "joselito.rapisora@gmail.com"
+description: Everyone I meet was sent my way to teach me something.
+baseurl: ""
+url: "https://joselitorapisora.github.io"
+
+# Minima theme settings
+theme: minima
+minima:
+  skin: classic
+  social_links:
+  - { platform: github, icon: github, user_url: "https://github.com/joselitorapisora" }
+
+# Show excerpts on the homepage
+show_excerpts: true
 plugins:
-  - jekyll-feed # Adds an RSS feed
-collections:
-  projects:
-    output: true
-    permalink: /projects/:title/
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: default
+  - jekyll-feed
+header_pages:
+  - about.md

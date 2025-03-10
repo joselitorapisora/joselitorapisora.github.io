@@ -1,3 +1,21 @@
-<footer>
-    <p><a href="mailto:joselito.rapisora@gmail.com">joselito.rapisora@gmail.com</a> | &copy; {{ site.time | date: '%Y' }}</p>
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <!-- Left Column: Contact Info + Copyright -->
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>© 2025 {{ site.author.name | escape }}</li>
+          <!--{% if site.author.email %}
+            <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+          {% endif %} -->
+        </ul>
+      </div>
+      <!-- Right Column: Site Description -->
+      <div class="footer-col footer-col-4">
+        {% if site.description %}
+          <p>{{ site.description | escape }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
 </footer>
