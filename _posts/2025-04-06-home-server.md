@@ -62,7 +62,7 @@ Setup guide should be available in various sources in the web.
 <br>
 One of the cool things about OMV is that it integrates docker functionality as a plugin. Adding a service is as simple as copying a sample Docker compose file, customizing the storage and network options, then running it!  
 
-I have a qBittorrent service for my movie downloads, whenever needed.
+I have a qBittorrent service for my movie downloads, whenever needed. I would search for the torrent on my phone then parse it to the qBittorrent running on the server. After the download, I can watch the movie on my phone, or on the TV via the SMB share.
 
 ![Image 3](/assets/images/2025-04-06/s3.png)  
 
