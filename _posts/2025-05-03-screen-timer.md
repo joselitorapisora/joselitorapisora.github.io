@@ -9,7 +9,7 @@ When it comes to Windows automation, scripting, and quick GUI development, I hav
 
 It has served me numerous times in the past, particularly when I needed a GUI for a time/activity logger, and various production and engineering utility tools for work.  
 
-Check out their website to get a feel for what this tool can do!  
+Check out their website to get a feel for what this tool can do.  
 <https://www.autohotkey.com/> 
 
 ![Image 1](/assets/images/2025-05-03/s1.png)  

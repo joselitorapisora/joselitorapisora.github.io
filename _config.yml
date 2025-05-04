@@ -5,6 +5,7 @@ author:
 description: Everyone I meet was sent my way to teach me something.
 baseurl: ""
 url: "https://joselitorapisora.github.io"
+google_analytics: G-S3S0FWH0CQ
 
 # Minima theme settings
 theme: minima
